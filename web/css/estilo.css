@@ -1,0 +1,44 @@
+/* 
+    Created on : 09-17-2021, 09:17:27 PM
+    Hoja de estilo CSS - App Hibernate & PostgreSQL 2021
+*/
+
+*{
+    margin: 1em;
+    padding: 0px;
+}
+
+body{
+    font-family: helvetica;
+    background-color: #E9F7EF;
+}
+
+input{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #000000;
+    background-color: #1883ba;
+    border-radius: 6px;
+    border: 2px solid #0016b0; 
+    width: 100%;
+    text-align: center; 
+    background-color: #F2F4F4; 
+}
+
+table {
+   width: 100%;
+   border: 1px solid #999;
+   text-align: left;
+   border-collapse: collapse;
+   margin: 0 0 1em 0;
+   caption-side: top;
+}
+caption, td, th {
+   padding: 0.3em;
+}
+th, td {
+   border-bottom: 1px solid #999;
+   width: 25%;
+}
